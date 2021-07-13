@@ -54,6 +54,7 @@ type PaidResult struct {
 	OutTradeNo    *string `xml:"out_trade_no"`
 	Attach        *string `xml:"attach"`
 	TimeEnd       *string `xml:"time_end"`
+	TradeState    *string `xml:"trade_state"`
 }
 
 // PaidResp 消息通知返回
